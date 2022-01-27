@@ -1,0 +1,28 @@
+
+
+{% extends "base.html" %}
+
+
+<head>
+<link rel="stylesheet" type="text/css" href="C:\Users\ravi\Desktop\2022\oned\oned\templates\mystyle.css">
+</head>
+
+
+{% block content %}
+     
+
+
+<body>
+
+<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href=default.asp">Account</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+  <li><a href = "{% url 'template2' %}">Go to Login Page 2</a></li>
+  
+</ul>
+
+</body>
+
+{% endblock %}
